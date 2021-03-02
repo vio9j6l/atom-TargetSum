@@ -6,6 +6,7 @@ class App extends React.Component {
   state = {
     gameId: 1,
   };
+  
   // resetGame function
   resetGame = () => {
     this.setState((prevState) => {
